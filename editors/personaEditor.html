@@ -1,0 +1,50 @@
+﻿<html>
+	<head>
+		<link href="style.css" rel="stylesheet">
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="menu-container">
+			<select id="heroArray" class="select-hero">
+				<option disabled>Выберите героя</option>
+			</select>
+			<button id="save" class="save-button">Save</button>
+			</div>
+			<div class="hero-stats">
+				<p>
+					<div>Name:</div>
+					<input class="hero-name" id="hero-name" contenteditable="true"></input>
+					<div>Health:</div>
+					<input class="hero-health" id="hero-health" contenteditable="true"></input>
+					<div>Damage:</div>
+					<input class="hero-damage" id="hero-damage" contenteditable="true"></input>
+					<div>Armor:</div>
+					<input class="hero-armor" id="hero-armor" contenteditable="true"></input>
+					<div>Money:</div>
+					<input class="hero-money" id="hero-money" contenteditable="true"></input>
+				</p>
+			</div>
+			<div class="hero-stats hero-animation">
+				<p>
+					<div>backgroundPositionX:</div>
+					<input class="hero-name" id="backgroundPositionX" contenteditable="true"></input>
+					<div>backgroundPositionY:</div>
+					<input class="hero-health" id="backgroundPositionY" contenteditable="true"></input>
+					<div>width:</div>
+					<input class="hero-damage" id="width" contenteditable="true"></input>
+					<div>height:</div>
+					<input class="hero-armor" id="height" contenteditable="true"></input>
+					<div>diff:</div>
+					<input class="hero-money" id="diff" contenteditable="true"></input>
+				</p>
+			</div>
+			<div class="hero-container" id="hero"></div>
+			<div class="controls">
+				<button id="fight">Fight</button>
+				<button>Defense</button>
+			</div>
+		</div>
+	</body>
+	<script src="personaEditor.js"></script>
+</html>

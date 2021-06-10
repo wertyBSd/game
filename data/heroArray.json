@@ -1,0 +1,59 @@
+[
+{
+	"name": "knight",
+	"armor": 10,
+	"agi": 10,
+	"health": 100,
+	"type": "knight",
+	"money": 100,
+	"damage": 25,
+	"imageUrl": "./assets/img/persons/knight.png",
+	"animationOptions": {
+		"backgroundPositionX": "0",
+		"backgroundPositionY": "-2000",
+		"width": "145px",
+		"height": "160px",
+		"diff": "150",
+		"interval" : "120",
+		"frameLenght": "800"
+	}
+},
+{
+	"name": "archer",
+	"armor": 10,
+	"agi": 10,
+	"health": 100,
+	"type": "knight",
+	"money": 100,
+	"damage": 25,
+	"imageUrl": "./assets/img/persons/archer.png",
+	"animationOptions": {
+		"backgroundPositionX": "0",
+		"backgroundPositionY": "-2620",
+		"width": "145px",
+		"height": "160px",
+		"diff": "150",
+		"interval" : "120",
+		"frameLenght": "1600"
+	}
+},
+{
+	"name": "corcerer",
+	"armor": 10,
+	"agi": 10,
+	"health": 100,
+	"type": "knight",
+	"money": 100,
+	"damage": 25,
+	"imageUrl": "./assets/img/persons/sorcerer.png",
+	"animationOptions": {
+		"backgroundPositionX": "0",
+		"backgroundPositionY": "-2620",
+		"width": "145px",
+		"height": "160px",
+		"diff": "150",
+		"interval" : "120",
+		"frameLenght": "1600"
+	}
+}
+]
